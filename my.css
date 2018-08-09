@@ -2,84 +2,86 @@ body {
   background-color: #d1e4ff;
   /*margin: 30px; */
 }
- div {
+
+.content {
   background-color: #ffffff;
   width: 960px;
   margin: auto;
   padding: 30px 30px 65px 30px;
- }
-
-.content {
   font-family: arial;
   font-size: 16px;
 }
 
-h1 {
+.content h1 {
   font-size: 42px;
 }
-h2 {
+.content h2 {
   font-size: 36px;
 }
-h3 {
+.content h3 {
   font-size: 30px;
 }
-h4 {
+.content h4 {
   font-size: 26px;
 }
-h5 {
+.content h5 {
   font-size: 20px;
 }
-h6 {
+.content h6 {
   font-size: 16px
 }
 
-mark {
+.content mark {
   background-color: #ffff00;
 }
 
-blockquote {
+.content blockquote {
   background-color: #eadcea;
   border-left: 4px solid;
   border-color: #b496b4;
   padding: 13px 90px 14px 32px;
   margin: 0;
 }
-pre {
+
+.content pre {
   background-color: #f0e6d6;
   padding: 12px 87px 12px 14px;
 }
 
-table, th, td {
+.content table, th, td {
 border: 1px solid #b496b4;
 }
 
-td {
+.content td {
   padding:9px 8px;
-
 }
 
-table {
+.content table {
   width: 100%;
   border-collapse: collapse;
 }
 
-thead {
+.content thead {
   background-color: #eadcea;
   text-align: center;
 }
-code kbd samp {
+
+.content code, kbd, samp {
  font-family: monospace;
 }
-code {
+
+ .content code {
 background-color: #f0e6d6;
 }
-kbd {
+
+.content kbd {
   background-color: #eadcea;
 }
-samp {
+
+.content samp {
 background-color: #eadcdc;
 }
-dt {
 
+.content dt {
   font-weight: bold;
 }
